@@ -9,7 +9,13 @@
 
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
+configure: configure-stamp
+configure-stamp:
+	# Standard package support
+	 	./configure $(CONFFLAGS) \
+	 			--enable-static --enable-shared --enable-dependency-tracking --enable-nfq-module --enable-ipq-module --enable-ipfw-module --enable-dump-module --enable-afpacket-module --enable-pcap-module --enable-ipv6 
+	 	touch $@
 
-%:
+%: 
 	dh $@ 
 #	dh $@  --with quilt

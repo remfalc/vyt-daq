@@ -20,11 +20,6 @@ Description: Upstream changes introduced in version 0.3-2
         above changes and running:
         'libbtoolize --copy --force ; aclocal -I m4; autoheader; autoconf; automake --foreign '
  .
- The person named in the Author field signed this changelog entry.
-Author: Javier Fernandez-Sanguino Pen~a <jfs@debian.org>
-Bug-Debian: http://bugs.debian.org/609054
-Bug-Debian: http://bugs.debian.org/609865
-
 ---
 The information above should follow the Patch Tagging Guidelines, please
 checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
