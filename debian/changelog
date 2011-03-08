@@ -1,3 +1,5 @@
+daq (0.3-2+vyatta1) unstable; urgency=low
+
 daq (0.3-2) experimental; urgency=low
 
   * Fix FTBFS: update Build-Depends with flex, bison (Closes: #609054)
