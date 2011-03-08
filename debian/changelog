@@ -1,3 +1,9 @@
+daq (0.3-2+vyatta2) unstable; urgency=low
+
+  * 0.3-2+vyatta1
+
+ -- John Southworth <john.southworth@vyatta.com>  Mon, 07 Mar 2011 19:33:33 -0600
+
 daq (0.3-2+vyatta1) unstable; urgency=low
   
   * Changes to build of deb to include all daq modules
