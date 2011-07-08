@@ -1,3 +1,9 @@
+daq (0.3-2+vyatta2+napa1) unstable; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Thu, 07 Jul 2011 20:44:07 -0700
+
 daq (0.3-2+vyatta2) unstable; urgency=low
 
   * 0.3-2+vyatta1
